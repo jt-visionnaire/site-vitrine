@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catalogue en ligne pour trouver vos produits tendance. Commandez en un clic sur WhatsApp et profitez d’un service personnalisé et d’une livraison gratuite.">
+    <meta name="keywords" content="chaussures femme, bottines femme, sabots femme, produits tendance, mode femme, catalogue en ligne, shopping WhatsApp, commande WhatsApp, articles femme, accessoires femme, livraison gratuite, service personnalisé, boutique en ligne, legging femme, style tendance">
+    <title>Collection Chaussures Femme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+
+</head>
+<body>
+   
+ <!--Header-->
+ <header>
+  <!--Menu responsive-->
+
+  <div class="menu_toggle">
+    <span></span>
+  </div>
+
+
+  <div class="logo">
+    <p><span>J</span>FT</p>
+  </div>
+  <ul class="menu">
+    <li><a href="#home">Accueil</a></li>
+    <li><a href="#catalogue">Catalogue</a></li>
+    <li><a href="#services">Services</a></li> 
+  </ul>
+ </header>
+
+
+ <!--Section Accueil-->
+
+
+<section id="home">
+  <div class="left">
+    <h2>Simple <span>et Rapide</span></h2>
+    <p>Parcours notre catalogue ou envoie-nous la photo du produit qui te fait envie : on te le trouve et on te le livre directement via WhatsApp, simple et rapide.</p>
+  </div>
+  <div class="right">
+    <img src="/images/IMG_sabot1.png" alt="botte style ugg femme">
+  </div>
+</section>
+
+ <!--Section Catalogue-->
+
+  <section id="catalogue">
+    <h1 class="title">Notre Catalogue</h1>
+    <div class="images">
+      <ul>
+        <li class="card">
+          <div>
+            <img src="/images/img_bottineugg.png" alt="bottine style ugg femme">
+          </div>
+          <span>Chaleur, légèreté… et le plaisir d’être bien.</span>
+        </li>
+
+        <li class="card">
+          <div>
+            <img src="/images/IMG_botte3.png" alt=" bottine fourré marron">
+          </div>
+          <span> votre alliée ultime pour des journées tendance et tout confort.</span>
+        </li>
+
+        <li class="card">
+          <div>
+            <img src="/images/IMG_botte4.png" alt=" bottine fourré noire">
+          </div>
+          <span>Le confort qui réchauffe vos journées.</span>
+        </li>
+
+        <li class="card">
+          <div>
+            <img src="/images/IMG_botte5.png" alt="bottines fourrées beige">
+          </div>
+          <span>Bottines fourrées apportent une touche unique</span>
+        </li>
+
+        <li class="card">
+          <div>
+            <img src="/images/IMG_bottine5.png" alt="sabot chaussure">
+          </div>
+          <span>Pour un style chaud, doux et chic</span>
+        </li>
+
+        <li class="card">
+          <div>
+            <img src="/images/IMG_sabot4.png" alt="sabot chaussure">
+          </div>
+          <span>Un instant de douceur à chaque pas.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="services">
+   <h1 class="title">Nos services</h1>
+   <div class="list_services">
+    <div class="service">
+      <h3>La Livraison, C’est Pour Nous</h3>
+      <p>Commande en toute tranquillité : la livraison est offerte.</p>
+    </div>
+
+    <div class="service">
+      <h3>Service personnalisé</h3>
+      <p>Explore notre catalogue et commande en un clic sur WhatsApp. Tu ne trouves pas l’article que tu veux ? Envoie-nous juste une photo ou un lien : on te le déniche et on s’occupe de tout.</p>
+    </div>
+
+    <div class="service">
+      <h3>Commande</h3>
+      <p>Commande tes produits directement via WhatsApp : catalogue, demandes personnalisées, envoi de photos ou de liens… on s’occupe de tout.</p>
+    </div>
+   </div>
+  </section>
+
+  <footer>
+    <p>JFT Collection Chaussures Femme Copyright 2025.</p>
+    <h3>Contactez-nous via WhatsApp:</h3>
+    <a href="https://wa.me/message/AHMZ7WA6OOR4P1">07 59 23 85 49</a>
+  </footer>
+  <script>
+    //menu responsive js
+
+    var menuToggle = document.querySelector('.menu_toggle');
+    var menu = document.querySelector('.menu');
+    var menuToggle_span = document.querySelector('.menu_toggle span');
+
+    menuToggle.onclick = function() {
+      menu.classList.toggle('active');
+      menuToggle_span.classList.toggle('active');
+      menu.classList.toggle('responsive');
+    }
+
+  </script>
+
+  
+</body>
+</html>
